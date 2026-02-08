@@ -1,0 +1,40 @@
+╔══════════════════════════════════════════════════════════╗
+║   Nuclear Option – Русский патч (Localization Patch)       ║
+╚══════════════════════════════════════════════════════════╝
+
+■ Требования
+  - Nuclear Option (Steam, Early Access 0.32.5+)
+  - BepInEx 5.x (https://github.com/BepInEx/BepInEx/releases)
+
+■ Установка
+  1. Установите BepInEx 5.x в папку игры.
+     (Пример: C:\Program Files (x86)\Steam\steamapps\common\Nuclear Option\)
+
+  2. Запустите игру один раз и закройте её.
+     (Это создаст структуру папок BepInEx)
+
+  3. Скопируйте все файлы из этой папки в:
+     [Папка игры]\BepInEx\plugins\LocalizationPatch\
+
+     ※ Если папки «LocalizationPatch» нет, создайте её вручную.
+
+  4. Запустите игру — русский перевод применится автоматически.
+
+■ Включённые файлы
+  - LocalizationPatch.dll  : Плагин патча
+  - ru.json                : Данные русского перевода (1427 записей)
+  - Pretendard-Regular.otf : Шрифт для отображения кириллицы
+
+■ Горячие клавиши в игре
+  - F10         : Показать/скрыть отладочный оверлей
+  - Ctrl+F10    : Перезагрузить данные перевода (горячая перезагрузка)
+
+■ Примечания
+  - Названия миссий и фракций (PALA, BDF) остаются на английском.
+  - При возникновении проблем можно вручную указать язык в файле
+    BepInEx\config\com.yuulf.localizationpatch.cfg
+    установив Language = ru.
+
+■ Лицензия шрифта
+  Pretendard (v1.3.9) — SIL Open Font License 1.1
+  https://github.com/orioncactus/pretendard
