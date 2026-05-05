@@ -44,6 +44,11 @@
 - Названия миссий и фракций (PALA, BDF) остаются на английском.
 - При возникновении проблем можно вручную указать язык в файле `BepInEx\config\com.yuulf.localizationpatch.cfg`, установив `Language = ru`.
 
+## Авторы перевода
+
+- Перевод: **Shumatsu [UMA]** и **Jonyx2** (вклад сообщества)
+- Плагин / основа: https://github.com/9138noms/NuclearOption-TranslationToolkit
+
 ## Лицензия шрифта
 
 Pretendard (v1.3.9) — [SIL Open Font License 1.1](https://github.com/orioncactus/pretendard)
