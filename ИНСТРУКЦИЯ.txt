@@ -21,20 +21,27 @@
   4. Запустите игру — русский перевод применится автоматически.
 
 ■ Включённые файлы
-  - LocalizationPatch.dll  : Плагин патча
-  - ru.json                : Данные русского перевода (1427 записей)
-  - Pretendard-Regular.otf : Шрифт для отображения кириллицы
+  - LocalizationPatch.dll          : Плагин патча
+  - LocalizationPatchDropdown.dll  : Дополнение для выпадающих меню
+  - ru.json                        : Данные русского перевода (2 844 записи)
+  - Tektur-Reg.ttf                 : Шрифт для отображения кириллицы
 
 ■ Горячие клавиши в игре
   - F10         : Показать/скрыть отладочный оверлей
   - Ctrl+F10    : Перезагрузить данные перевода (горячая перезагрузка)
 
 ■ Примечания
-  - Названия миссий и фракций (PALA, BDF) остаются на английском.
+  - Названия фракций (PALA, BDF, BOSCALI, PRIMEVA, FFL, LMA) и кодовые
+    имена техники / оружия остаются на английском.
   - При возникновении проблем можно вручную указать язык в файле
-    BepInEx\config\com.yuulf.localizationpatch.cfg
+    BepInEx\config\com.noms.localizationpatch.cfg
     установив Language = ru.
 
+■ Авторы перевода
+  - Shumatsu [UMA], Jonyx2 — первоначальный перевод (~1 456 записей)
+  - хомяк — обновление до 0.33 и расширение до 2 844 записей
+  - Плагин / основа: https://github.com/9138noms/NuclearOption-TranslationToolkit
+
 ■ Лицензия шрифта
-  Pretendard (v1.3.9) — SIL Open Font License 1.1
-  https://github.com/orioncactus/pretendard
+  Tektur — SIL Open Font License 1.1
+  https://fonts.google.com/specimen/Tektur

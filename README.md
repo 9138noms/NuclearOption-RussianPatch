@@ -1,6 +1,6 @@
 # Nuclear Option – Русский патч (Localization Patch)
 
-Мод русской локализации для Nuclear Option. Работает как плагин BepInEx и переводит интерфейс, энциклопедию, подсказки и всплывающие описания — всего **1 447 записей**.
+Мод русской локализации для Nuclear Option. Работает как плагин BepInEx и переводит интерфейс, HUD, MFD, миссии, сценарии, технику и оружие — всего **2 844 записей**.
 
 ## Требования
 
@@ -29,8 +29,9 @@
 | Файл | Описание |
 |------|----------|
 | `LocalizationPatch.dll` | Плагин патча |
-| `ru.json` | Данные русского перевода (1 447 записей) |
-| `Pretendard-Regular.otf` | Шрифт для отображения кириллицы |
+| `LocalizationPatchDropdown.dll` | Дополнение для выпадающих меню |
+| `ru.json` | Данные русского перевода (2 844 записи) |
+| `Tektur-Reg.ttf` | Шрифт для отображения кириллицы |
 
 ## Горячие клавиши в игре
 
@@ -41,14 +42,15 @@
 
 ## Примечания
 
-- Названия миссий и фракций (PALA, BDF) остаются на английском.
-- При возникновении проблем можно вручную указать язык в файле `BepInEx\config\com.yuulf.localizationpatch.cfg`, установив `Language = ru`.
+- Названия фракций (PALA, BDF, BOSCALI, PRIMEVA, FFL, LMA) и кодовые имена техники / оружия (Compass, Alkyon AB-4, FGA-57 Anvil, IRM-S2, и т. д.) остаются на английском.
+- При возникновении проблем можно вручную указать язык в файле `BepInEx\config\com.noms.localizationpatch.cfg`, установив `Language = ru`.
 
 ## Авторы перевода
 
-- Перевод: **Shumatsu [UMA]** и **Jonyx2** (вклад сообщества)
+- **Shumatsu [UMA]**, **Jonyx2** — первоначальный перевод (~1 456 записей).
+- **хомяк** — обновление до 0.33 и расширение до **2 844 записей**: миссии, описания сценариев, энциклопедия, новая техника / оружие, и согласование терминологии (например, `Газ` → `Тяга`).
 - Плагин / основа: https://github.com/9138noms/NuclearOption-TranslationToolkit
 
 ## Лицензия шрифта
 
-Pretendard (v1.3.9) — [SIL Open Font License 1.1](https://github.com/orioncactus/pretendard)
+Tektur — [SIL Open Font License 1.1](https://fonts.google.com/specimen/Tektur)
